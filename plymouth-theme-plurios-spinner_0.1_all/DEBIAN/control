@@ -1,0 +1,16 @@
+Package: plymouth-theme-plurios-spinner
+Source: ubuntucinnamon-artwork
+Version: 0.1
+Architecture: all
+Maintainer: Fersho Uno <fersh0un0@gmail.com>
+Original-Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
+Installed-Size: 480
+Depends: plymouth, plymouth-theme-spinner
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Replaces: plymouth (<< 0.8.1-1~)
+Provides: plymouth-theme
+Section: x11
+Priority: optional
+Description: boot animation for PluriOS
+ .
+ This package contains the spinner theme.

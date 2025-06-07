@@ -1,0 +1,65 @@
+[Plymouth Theme]
+Name=PluriOS Spinner
+Description=A theme designed by ItzSwirlz that features a simple spinner. Forked by FershoUno for PluriOS.
+ModuleName=two-step
+
+[two-step]
+Font=Ubuntu 12
+TitleFont=Ubuntu Bold 30
+ImageDir=/usr/share/plymouth/themes/plurios-spinner
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.7
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=false
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=true
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=true
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=true
+UseFirmwareBackground=true
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
