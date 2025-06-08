@@ -5,5 +5,6 @@ then
   rm -f *.deb
 fi
 
+chown -R root:root plymouth-theme-plurios-spinner_0.1_all/
 
 dpkg-deb --build plymouth-theme-plurios-spinner_0.1_all/
